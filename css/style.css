@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body{
+background-color: brown;
+font-family: 'Open Sans', sans-serif;
+color: white;
+}
+
+.box-content{
+    height: 1000px;
+    width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px #3D3B3B , -1px -1px -2px #3D3B3B;
+}
+
+.box-1
+{
+    width: 35%;
+    float: right;
+    background-color: #434040;
+    height: 100%;
+}
+.box-2
+{
+    width: 65%;
+    float: right;
+    height: 100%;
+}
+.box-1 .data .profile
+{
+    width: 100%;
+}
+.box-1 .data .name
+{
+    text-align: center;
+    font-size: 22px;
+}
+.box-1 .data .adresse
+{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box-1 .data .line
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.box-1 .data .title
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.box-1 .data .About
+{
+    text-align: justify;
+    padding: 13px;
+}
+.box-1 .data .item li
+{
+    padding-top: 8px;
+    font-size: 20px;
+}
+.box-2 {
+    color: black;
+}
+.box-2 .data .title1
+{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #434040;
+}
+.box-2 .data  li
+{
+   margin-top: 10px;
+   padding-top: 8px;
+}
